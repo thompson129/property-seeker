@@ -1,0 +1,85 @@
+/* CreatePost.css */
+.create-post-container {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.create-post-container h2 {
+    font-family: 'Georgia', serif;
+    font-size: 24px;
+    color: #e0dddd;
+    margin-bottom: 20px;
+}
+
+.create-post-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-group {
+    width: 48%;
+    margin-bottom: 15px;
+}
+
+.form-group.textarea-group {
+    width: 100%;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd2d2;
+    font-size: 14px;
+}
+
+.upload-images {
+    width: 100%;
+}
+
+.upload-images .upload-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.upload-images .upload-buttons div {
+    width: 23%;
+}
+
+.upload-images .upload-buttons label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.submit-button {
+    background-color: #6B8E23; /* Olive green background */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.submit-button:hover {
+    opacity: 0.8;
+}
